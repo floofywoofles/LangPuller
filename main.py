@@ -14,4 +14,4 @@ if __name__ == "__main__":
         # Note: gTTS only supports 'es' (not regional variants like es-mx)
         tts = gTTS(word, lang='es')
 
-        tts.save(f"./output/{number}-{word}.mp3")
+        tts.save(f"./output/{number}.mp3")
